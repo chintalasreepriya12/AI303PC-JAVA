@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SecureTextFormatter{
+public class AssignmentP4{
     public static String toTitleCase(String name) {
         if (name == null || name.isBlank()) return "";
         String[] words = name.split("\\s+");
