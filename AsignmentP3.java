@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
-public class PalindromeAnagramChecker{
+public class AsignmentP3{
 
     public static boolean isPalindrome(String str) {
         String cleaned = str.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
