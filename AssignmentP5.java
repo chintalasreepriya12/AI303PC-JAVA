@@ -93,7 +93,7 @@ class Magazine extends LibraryItem implements Issuable {
     }
 }
 
-public class LibraryManagementSystem {
+public class AssignmentP5{
     public static void main(String[] args) {
         LibraryItem book1 = new Book("Java Programming", "B101");
         LibraryItem mag1 = new Magazine("National Geographic", "M201");
