@@ -22,9 +22,6 @@ public class PalindromeAnagramChecker{
         String str1 = sc.nextLine();
         String str2 = sc.nextLine();
         String str3 = sc.nextLine();
-        /*String str1 = " A man a plan a canal Panama ";
-        String str2 = "listen";
-        String str3 = "silent";*/
         boolean palindromeRes = isPalindrome(str1);
         boolean anagramRes = isAnagram(str2, str3);
         String cleanedStr1 = str1.replaceAll("[^a-zA-Z0-9]", "");
